@@ -6,3 +6,5 @@
 * Построение сетки с помощью grid;
 * Работа с Figma
 * Адаптивность страницы
+
+[https://mkkarine.github.io/russian-travel/]
