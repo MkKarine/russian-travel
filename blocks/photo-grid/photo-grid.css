@@ -4,6 +4,7 @@
     width: calc(100% - 96px);
     margin: 0 48px 92px;
     gap: 16px;
+    justify-items: center;
 }
 @media screen and (max-width: 1279px) {
     .photo-grid {
@@ -16,6 +17,7 @@
         grid-template-columns:repeat(2, 1fr);
         gap: 16px;
         margin: 0 24px 88px;
+        width: calc(100% - 48px);
     }
 }
 @media screen and (max-width: 767px) {
@@ -23,5 +25,6 @@
         grid-template-columns: 1fr;
         gap: 12px;
         margin: 0 16px 64px;
+        width: calc(100% - 32px);
     }
 }

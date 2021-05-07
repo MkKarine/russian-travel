@@ -1,28 +1,27 @@
 .header__link {
-    width: 30px;
     line-height: 28px;
     font-size: 24px;
+    margin-right: 18px;
+    color: #ffffff;
+    text-decoration-line: underline;
+    text-align: end;
 }
-
+.header__link:hover {
+    opacity: 0.8;
+    transition: 1s;
+ }
+.header__link:last-child{
+    margin-right: 0;
+    text-decoration-line: none;
+}
 @media screen and (max-width: 1279px) {
     .header__link {
-        width: 30px;
         line-height: 28px;
         font-size: 24px;
+        }
     }
-}
-
-@media screen and (max-width: 1023px) {
-    .header__link {
-        width: 30px;
-        line-height: 28px;
-        font-size: 24px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .header__link {
-        width: 22px;
         line-height: 20px;
         font-size: 18px;
     }

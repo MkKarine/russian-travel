@@ -4,4 +4,6 @@
     font-size: 12px;
     font-weight: normal;
     margin: 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }

@@ -4,6 +4,7 @@
     font-weight: normal;
     max-width: 360px;
     margin: 32px auto 0;
+    text-align: center;
 }
 @media screen and (max-width: 767px) {
     .cover__subtitle {
