@@ -6,12 +6,6 @@
     opacity: 0.8;
     transition: 1s;
 }
-@media screen and (max-width: 1279px) {
-    .header__logo {
-        min-height: 52px;
-        max-width: 176px;
-    }
-}
 @media screen and (max-width: 767px) {
     .header__logo {
         min-height: 42px;

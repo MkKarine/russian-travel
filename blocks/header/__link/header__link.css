@@ -3,23 +3,16 @@
     font-size: 24px;
     margin-right: 18px;
     color: #ffffff;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     text-align: end;
 }
 .header__link:hover {
     opacity: 0.8;
     transition: 1s;
  }
-.header__link:last-child{
-    margin-right: 0;
-    text-decoration-line: none;
-}
-@media screen and (max-width: 1279px) {
-    .header__link {
-        line-height: 28px;
-        font-size: 24px;
-        }
-    }
+ .header__link:last-child {
+     margin-right: 0;
+ }
 @media screen and (max-width: 767px) {
     .header__link {
         line-height: 20px;
